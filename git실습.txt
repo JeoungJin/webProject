@@ -1,0 +1,23 @@
+1. git scm설치
+https://git-scm.com/download/win
+
+use window default console window 체크하기 
+
+2. https://github.com/
+   가입
+   repository만들기
+   
+3. cmd
+
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+
+echo "# kosta241" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+########git branch -M main
+git remote add origin https://github.com/JeoungJin/kosta241.git
+git push -u origin master
+
+--git login 인증메시지뜬다. (Authentication Succeeded)
